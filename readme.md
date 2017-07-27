@@ -20,3 +20,9 @@ tags: programming, rust
 title: WHATWG Example Webpage
 url: http://example.com
 ```
+
+The format is quite straightforward. Each link entry consists of a `title` field, a `url` field, and an optional `tags` field. Entries are separated the delimiter `---`.
+
+A field consists of a key followed by a colon, an optional space, then a value. This means that `key:value` and `key: value` are both valid representations of the same field.
+
+Every entry must have the `title` and `url` fields; the `tags` field is optional, and client apps are free to add other optional fields as they see fit. However, clients should not rely on optional fields being present - the only fields that can reliably be counted on are `title` and `url`.

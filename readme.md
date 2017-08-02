@@ -17,7 +17,7 @@ title: A Taste of Rust
 url: http://evanmiller.org/a-taste-of-rust.html
 tags: programming, rust
 ---
-title: WHATWG Example Webpage
+title: IANA Example Webpage
 url: http://example.com
 ```
 
